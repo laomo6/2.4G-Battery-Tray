@@ -1,0 +1,2 @@
+# This project intentionally has no third-party dependencies.
+# Requirements: Windows 10/11, Python 3.10+, tkinter (included in python.org builds).

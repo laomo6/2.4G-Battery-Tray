@@ -239,6 +239,16 @@ python my_devices.py --debug
 - 桌面：目录链接 + 启动文件链接均创建成功
 - 项目目录无 `.log` 文件
 
+## 参考与致谢
+
+本项目的需求整理、HID 底层实现思路和「已知的坑」参考了：
+
+- [yszyszysz233/2.4G-battery-viewer](https://github.com/yszyszysz233/2.4G-battery-viewer)
+
+那个项目同样采用纯 `ctypes` + `tkinter`、零第三方依赖的方案，并给出了 ATK / VXE 与 DARKRIM 的协议说明。本项目在其思路基础上，针对 Logitech G502 LIGHTSPEED 与 MCHOSE G98 V2 做了实机适配、协议补充和界面/托盘/调试功能扩展；代码为独立实现。
+
+感谢原作者把协议和踩坑经验公开出来。
+
 ## 免责声明
 
 本项目是个人使用的第三方工具，**与 Logitech、MCHOSE、ATK、VXE、DARKRIM 及其关联公司无隶属关系**。协议来自对公开资料和本机设备的只读分析，可能随固件更新失效；使用风险自负。

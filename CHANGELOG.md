@@ -22,3 +22,8 @@ Initial public release.
 
 - G502 voltage-to-percentage uses the Solaar Logitech curve with `+0.4` calibration
 - MCHOSE direct reply uses byte 5 and matches the vendor HUB's 10% rounding
+
+### Credits
+
+- Requirement notes and HID/tray pitfalls reference
+  [yszyszysz233/2.4G-battery-viewer](https://github.com/yszyszysz233/2.4G-battery-viewer)

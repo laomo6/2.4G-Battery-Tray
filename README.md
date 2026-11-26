@@ -172,8 +172,6 @@ HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\StartupF
 python my_devices.py --debug
 ```
 
-![调试版](docs/debug.png)
-
 - HID 接口表：VID:PID、usage、In/Out/Feat 长度、产品名、设备路径
 - Feature Report 转储（Report ID 0–32）
 - Report ID 探测（Feature 扫描 0–255 + Input 监听）
@@ -212,8 +210,7 @@ python my_devices.py --debug
 │  ├─ config.py            # JSON 配置
 │  └─ app.py               # Tk 主线程调度
 ├─ docs/
-│  ├─ panel.png
-│  └─ debug.png
+│  └─ panel.png
 ├─ README.md
 ├─ LICENSE
 ├─ CHANGELOG.md
